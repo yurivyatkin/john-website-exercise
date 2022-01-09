@@ -1,6 +1,6 @@
-import path	from 'path';
+import path from 'path';
 
-import express from "express";
+import express from 'express';
 
 // https://stackoverflow.com/a/28279609/1008341
 const __dirname = process.cwd();
