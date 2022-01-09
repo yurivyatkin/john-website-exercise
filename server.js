@@ -1,5 +1,9 @@
-const express = require('express');
-const path = require('path');
+import path	from 'path';
+
+import express from "express";
+
+// https://stackoverflow.com/a/28279609/1008341
+const __dirname = process.cwd();
 
 const app = express();
 
