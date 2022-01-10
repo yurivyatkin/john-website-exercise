@@ -1,21 +1,24 @@
-# [![GoPablo](https://gopablo.s3-eu-west-1.amazonaws.com/img/gopablo-repository-logo.svg#2)](https://www.gopablo.co/)
+# John's website
 
-[![Version](https://img.shields.io/github/package-json/v/luangjokaj/gopablo)](https://www.gopablo.co/)
+This project is an exercise inspired by a [tutorial](https://www.youtube.com/watch?v=vkq7ckCkvjY).
+That tutorial provides a Figma file with the design.
+I created a duplicate of that file [here](https://www.figma.com/file/uIQEbawSgHcYBzLBWBZo8c/John?node-id=0%3A1).
 
-Create optimized static websites.
+The goal is to build a simple portfolio website and publish it on Heroku.
 
----
+## The build engine
 
-## Documentation
+This project has been generated with [GoPablo](https://www.gopablo.co/), which has the technology choices very close to those made in the tutorial.
 
-For full documentation, visit https://www.gopablo.co.
+In particular, [Gulp](https://gulpjs.com/) is used as a build tool.
 
-## Community
+With Gulp, we can write HTML in a modular way, using [gulp-file-include](https://github.com/haoxins/gulp-file-include).
 
-For help, discussion about best practices, or any other conversation that would benefit from being searchable:
+For writing CSS, we use here [PostCSS](https://postcss.org/) harness.
+We will add [TailwindCSS](https://tailwindcss.com/) eventually to keep things nice and simple.
 
-[Discuss GoPablo on GitHub](https://github.com/luangjokaj/gopablo/discussions)
+More information about GoPablo's features is available [here](https://jamstack.org/generators/gopablo/).
 
-For casual chit-chat with others using GoPablo:
+## The development workflow
 
-[Join the Discord Server](https://discord.com/invite/uQFdMddMZw)
+Running `npm run dev` starts the development server at [http://localhost:3000](http://localhost:3000).
