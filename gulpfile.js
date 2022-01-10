@@ -19,6 +19,7 @@ import plumber from 'gulp-plumber';
 import postcss from 'gulp-postcss';
 import postcssImport from 'postcss-import';
 import postCSSMixins from 'postcss-mixins';
+import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 import postcssPresetEnv from 'postcss-preset-env';
 import RevAll from 'gulp-rev-all';
@@ -43,6 +44,7 @@ const pluginsListDev = [
 		},
 	}),
 	postCSSMixins,
+	tailwindcss,
 	autoprefixer,
 ];
 const pluginsListProd = [
@@ -56,6 +58,7 @@ const pluginsListProd = [
 		},
 	}),
 	postCSSMixins,
+	tailwindcss,
 	autoprefixer,
 	cssnano(),
 ];

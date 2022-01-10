@@ -6,3 +6,7 @@ Entry Points
 
 @import 'cherry-postcss/src/cherry';
 @import './gopablo';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

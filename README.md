@@ -15,7 +15,9 @@ In particular, [Gulp](https://gulpjs.com/) is used as a build tool.
 With Gulp, we can write HTML in a modular way, using [gulp-file-include](https://github.com/haoxins/gulp-file-include).
 
 For writing CSS, we use here [PostCSS](https://postcss.org/) harness.
-We will add [TailwindCSS](https://tailwindcss.com/) eventually to keep things nice and simple.
+[TailwindCSS](https://tailwindcss.com/) helps to keep things easy.
+
+For a better development experience in Visual Studio Code editor, see [this](https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker) StackExchange question for possible solutions.
 
 More information about GoPablo's features is available [here](https://jamstack.org/generators/gopablo/).
 
